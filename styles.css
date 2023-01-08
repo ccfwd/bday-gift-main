@@ -1,0 +1,111 @@
+/*
+Challenge:
+Style the app according to the provided design.
+The font is called "Happy Monkey" and can be
+embedded via Google Fonts.
+
+Don't know how to make an image round? Google it!
+Also, consider how you should select the image 
+(class vs id vs element selector).
+*/
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    background:linear-gradient(#057ff0, #73d283);     
+    
+}
+
+#header {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#bros {
+    border: 10px solid #e84b12;
+    border-radius: 50%;
+    width: 500px;
+}
+
+h1, h2, h3, h4, p {
+    font-size: 5rem;
+    text-shadow: 0px 0px 4px black;
+}
+
+#bday-age {
+    background: #e84b12;
+    padding: 12px 20px;
+    border-radius: 15px;
+    margin: 25px 0px 20px 0px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #e84b12;
+    padding: 12px 20px;
+    border-radius: 15px;
+}
+
+.gift-section, .excitement {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.happy {
+    margin-top: 20px;
+}
+
+.hover {
+    margin-top: -20px;
+}
+
+.gift {
+    width: 800px;
+    height: 800px;
+    border: 12px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: -20px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+}
+
+#gift-dance:hover {
+    background-image: url(https://media3.giphy.com/media/U8iiB9GBdt5t9n1I6J/giphy.gif?cid=ecf05e47mfa2dx3cob42cnez3ifn2jf4nseemuap2s3jxxos&rid=giphy.gif&ct=g);
+}
+
+#gift-happy:hover {
+    background-image: url(images/excited.gif);
+}
+
+#gift-star:hover {
+    background-image: url(images/star.gif);
+}
+
+#gift-candles:hover {
+    background-image: url(images/candles.gif);
+}
+
+#gift-love {
+   width: 1000px;
+   height: 600px;
+   
+}
+
+#gift-love:hover {
+    background-image: url(images/love-2.gif);
+   
+}
+
+#footer {
+    font-style: italic;
+    margin: 40px  auto 20px;
+}
+
+a {
+    color: #fff;
+}
